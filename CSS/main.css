@@ -1,10 +1,8 @@
-
-
 body {
 	font-family: Arial,sans-serif;
 	padding: 0;
     margin: 0;
-    background-color: rgb(179, 255, 0);
+    /* background-color: rgb(179, 255, 0); */
 }
 .clearfix:after {
 	content: '';
@@ -12,35 +10,32 @@ body {
 	width: 100%;
     clear: both;
 }
-.menu {
-    padding: 0;
-	margin: 0;
-	/* display: block; */
-}
-.menu li{
-	/* float: left; */
-	display: table;
-}
-.row {
+.page {
     display: block;
     height: 100%;
     background-color: red;
 }
-.row h3 {
+.page h3 {
     text-transform: uppercase;
 }
-table {
-    width: 100%;
-    text-align: left;
-}
+
 .sidebar {
     display: block;
-    background-color: aqua;
+    background-color:#2362a7;
     text-align: center;
     color: white;
     width: 30%;
     height: 100%;
+    padding-bottom: 50px;
     float: left;
+}
+.sidebar h3 {
+    text-transform: uppercase;
+    padding: 50px;
+}
+table {
+    width: 100%;
+    text-align: left;
 }
 .menu img{
     width: 16px;
@@ -49,65 +44,119 @@ table {
     margin-left: 30px;
 }
 
+.menu-seti {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.menu-seti img{
+    width: 24px;
+    height: 24px;
+    /* float: left;
+    margin-left: 30px; */
+}
+
 .menu-skill{
+    text-align: center;
+
+}
+.menu-interest{
     text-align: center;
 }
 
-/* .icon-text {
-    float: left;
-} */
 .contener {
     display: block;
-    background-color: rgb(140, 0, 255);
+    /* background-color: rgb(140, 0, 255); */
     text-align: center;
     color: white;
     width: 70%;
     height: 100%;
     float: right;
+    /* margin-top: 0px; */
 }
-.main {
+/* .main {
     background-color:black; 
     display: block;
+} */
+
+header {
+    display: block;
+    background-color:#f3f1f6;
+    text-align: left;
+    padding-bottom:0 ;
+    color: white;
+    width: 65%;
+    /* border: 10px solid red; */
+    
+    
 }
+
 .hedertable{
     font-size: 30px;
-    padding: 5px;
-    border: 10px solid red;
-    /* width: 100%; */
+    margin-top: 0px;
+    /* border: 10px solid red; */
+    color: #296cb2;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+header h2 {
+    font-size: 40px;
+    padding-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.figure {
+    background-color: #296cb2;
+    width: 200px;
+    height: 30px;
+}
+
+.present {
+    background-color: #1d1d1f;
+    /* border: 10px solid red; */
+}
+
+.contener h2 {
+    color: #757074;
+    text-transform: uppercase;
 }
 /* .graphik {
     background-color:rgb(192, 23, 23); 
     display: block;
 } */  
-.content {
+/* .content {
     background-color:green; 
     display: block;
-}
-header {
-    display: block;
-    margin-top: 20px;
-    background-color: rgb(184, 218, 218);
-    text-align: left;
-    padding:0 ;
-    color: white;
-    width: 65%;
-    /*float: left;*/ 
-    
-}
+} */
 
-.contact h3 {
+
+/* .contact h3 {
     text-transform: uppercase;
 
-}
+} */
 .graph horizontal{
- background-color: grey;
- height: 20px;
+ background-color: #e6e4e7;
+ height: 5px;
+ border: 10px solid red;
 }
 .discription {
     /* display: block; */
     width: 100%;
+    background-color: #dadadc;
+    color: black;
+    margin-top: 100px;
+}
+.discription h2 {
+text-transform: uppercase;
+color: black;
+
 }
 
+.discription h4{
+    text-transform: uppercase;
+    /* color: black; */
+    
+    }
 .experieence {
 float:left;
 width: 50%;
@@ -117,7 +166,21 @@ width: 50%;
 float: left;
 width: 50%;
 }
-.experieence p {
-    background-color: blue;
+ .period {
+    background: blue;
     color: white;
+    padding: 10px;
+    display: list-item;
+   
+} 
+h5 {
+    background: blue;
+    color: white;
+    padding: 10px; 
+    width: 150px;
+    align: center;
+}
+
+span {
+    font-style:italic;
 }
