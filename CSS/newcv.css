@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif;  */
+}
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+.box {
+    display: inline-block;
+}
+
+.sidebar {
+    width: 30%;
+    background:url(https://i2.wp.com/onaircode.com/wp-content/uploads/2017/11/Tesselation-Transition.jpg?resize=948%2C527&ssl=1);
+
+
+}
+
+.content {
+    width: 70%;
+    /* background: brown; */
+   
+}
+.header {
+  display: flex;
+  height: 100px;
+  margin-top: 30px;
+  
+}
+.fio {
+  display: block;
+  height: 100px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.title {
+  display: block;
+  font-family:'Oswald', sans-serif;
+  font-size: 50px;
+  color:  #296cb2;
+  text-align: center;
+}
+.position{
+  display:block ;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.rectangle {
+  display: flex;
+  height: 50px;
+  width: 30%;
+  background: #296cb2;
+}
+.present {
+  height: 170px;
+  width: 100%;
+  background: url(http://getwallpapers.com/wallpaper/full/f/f/6/672257.jpg);
+  display: flex;
+
+}
+
+.present-foto {
+  display: inline-block;
+  width: 30%;
+    
+}
+.present-foto img {
+padding: 10px;
+}
+
+.about {
+  color: #fff;
+  
+}
+.about p, .blockquote-title p  {
+  padding: 5px 30px 5px 0px;
+}
+
+.blockquote-title {
+position: relative;
+padding-left: 35px;
+margin-top: 5px;
+color: #296cb2 ;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.blockquote-title p::after {
+  content: "“";
+  position: absolute;
+  font-size: 20px;
+  
+  /* margin-top: -30px;
+  padding-top: 0;
+  position: relative;
+  /* bottom: -50px; 
+  left: 20px;
+  border-width: 30px 0 0 30px;
+  border-style: solid;
+  border-color: #BFE2FF transparent;
+  display: block;
+   width: 0; */
+}
+.blockquote-title p::before {
+  content: "“";
+  /* font-family: Georgia; */
+  /* font-size: 40px; */
+  /* line-height: 0; */
+  /* display: inline-block; */
+  position: absolute;
+  left: -2px; 
+  top: -1px; 
+  font-size: 60px;
+}
+.blockquote-title cite {
+  float: left;
+  font-size: 13px;
+  color: #fff;
+}
+
+/* .skill child {
+  padding: 20px;
+  background-color: #296cb2 ;
+  color: #fff;
+} */
+
+.skill {
+  padding: 20px;
+  background-color: #296cb2 ;
+  height: 200px;
+}
+
+.exp-edu{
+display: flex;
+background: #fff;
+
+}
+.experience, .education  {
+  display: inline-block;
+  width: 50%;
+  background:rgb(167, 167, 190); 
+  font-family: 'Oswald', sans-serif;
+  padding: 20px;
+  
+}
+
+.education {
+  margin-left: 10px;
+}
+
+.exp-edu h2 {
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+color: #000000;
+font-size: 25px;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+.period {
+  display: inline;
+  background:#296cb2 ;
+  color: #fff;
+  font-size: ;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+.experience h4, .education h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.company {
+  font-style: italic;
+  margin-top: 5px;
+}
+.work {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(95, 95, 95);
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+.exp-1, .exp-2, exp-3 {
+  margin: 20px 0px;
+}
+
+.sidebar {
+  text-align: left;
+  color: #fff;
+}
+.qrcod {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+}
+
+.phone{
+  /* list-style-image:url('hand_point.png');
+  list-style-position:outside; */
+  position: relative;
+}
+
+.contact_box1 li {
+  margin: 10px 0px;
+  padding-left: 100px;
+}
+
+.phone::before{
+  display: block;
+  position: absolute;
+  content: '\f095';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  font-weight: 900;
+  left: -12px; 
+  /* right: -2px; */
+  width: 100px;
+  min-height: 50px;
+  text-align: right;
+  color: #fff;
+  }
+  .web{
+      position: relative;
+  }
+  .web::before{
+    display: block;
+    position: absolute;
+    content: '\f57d';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight: 900;
+    left: -12px; 
+    width: 100px;
+    min-height: 50px;
+    text-align: right;
+    color: #fff;
+    }
+.geolocation{
+      position: relative;
+  }
+.geolocation::before{
+    display: block;
+    position: absolute;
+    content: '\f3c5';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight: 900;
+    left: -12px; 
+    width: 100px;
+    min-height: 50px;
+    text-align: right;
+    color: #fff;
+    }
+
+
+.contact h3, .skill h3, .interests h3{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  text-align:center;
+  display: block;
+}
+.skill, .interests {
+  display: flex;
+}
+
+/* f84a bike */
+/* f072 fly */
+/* f44b gym */
+
+.travel{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto
+}
+.travel::before{
+display: block;
+position: absolute;
+content: '\f072';
+font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+font-weight: 900;
+left: -12px; 
+width: 100px;
+min-height: 50px;
+
+color: #fff;
+}
