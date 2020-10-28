@@ -8,9 +8,7 @@ text-transform: capitalize;
 margin-top: 5px;
 margin-bottom: 5px;
 
-
 }
-
 
 .txtInput:focus{
     outline: none;
